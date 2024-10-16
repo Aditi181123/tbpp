@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div>
+            <ul class="nav">
+                <li><a href="">HOME</a></li>
+                <li><a href=""><i class="bi bi-person-fill"></i> ABOUT</a></li>
+                <li><a href=""><i class="bi bi-grid-3x3-gap-fill"></i> PORTFOLIO</a></li>
+                <li><a href=""><i class="bi bi-envelope-fill"></i> CONTACT</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="back">
+        <div id="bg1">
+            <div class="write1">
+                <div>
+                    <h2>MY WEBSITE LOGO</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="write2">
+            <h3>ABOUT ME</h3>
+            <h6><em>I love photography </em></h6>
+        </div>
+        <div class="write3">
+            <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+
+  <section id="blog">
+    <div class="blog-box">
+         <div class="blog-img">
+            <h4><i class="bi bi-person-fill"></i> My Name  </h4>
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+         <div class="blog-details">
+             <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+     </div>
+  </section>
+  <section id="good">
+    <h5>Im really good at:</h5>
+    <div class="skills">
+        <h4>Photography</h4>
+        <div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="100" style="height: 24px; width: 80%;"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-secondary" style="width: 95%">90%</div>
+        </div>
+        <h4>Web Design</h4>
+        <div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="100" style="height: 24px; width: 80%;"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-secondary" style="width: 85%">85%</div>
+        </div>
+        <h4>Photoshop</h4>
+        <div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="100" style="height: 24px; width: 80%;"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-secondary" style="width: 80%">75%</div>
+        </div>
+    </div>
+    <div class="project">
+        <li><h2>14+</h2>
+        <p>Partners</p></li>
+        <li><h2>55+</h2>
+        <p>Projects Done</p></li>
+        <li><h2>89+</h2>
+        <p>Happy Clients</p></li>
+        <li><h2>150+</h2>
+        <p>Meetings</p></li>
+    </div>
+  </section>
+  <section id="back2">
+    <div id="bg2">
+        <div class="write4">
+            <div>
+                <h2>PORTFOLIO</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
